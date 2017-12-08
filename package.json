@@ -1,0 +1,29 @@
+{
+  "name": "fis3-vue-demo",
+  "version": "1.0.0",
+  "author": "smallcatcat.joe@gmail.com",
+  "description": "fis3,vue,es6",
+  "browserslist": [
+    "> 5%",
+    "last 4 versions"
+  ],
+  "dependencies": {
+    "es6-promise": "^4.1.1",
+    "handlebars": "^3.0.3",
+    "requirejs": "^2.3.5",
+    "zepto": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "fis-parser-babel-6.x": "^6.24.1",
+    "fis-parser-handlebars-3.x": "0.0.1",
+    "fis-postpackager-simple": "0.0.26",
+    "fis-postprocessor-jswrapper": "latest",
+    "fis-spriter-csssprites": "0.3.0",
+    "fis3-hook-module": "1.2.2",
+    "fis3-postpackager-loader": "1.2.7",
+    "fis3-postprocessor-autoprefixer": "^1.0.0"
+  },
+  "license": "ISC"
+}
