@@ -1,0 +1,211 @@
+html {
+  background-color: #f7f7f7;
+}
+
+.mask {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  opacity: .3;
+  z-index: 12;
+}
+
+.popup {
+  width: 7.2rem;
+  position: absolute;
+  top: 5.07rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 13;
+  font-size: 16px;
+}
+[data-dpr='2'] .popup {
+	font-size: 32px;
+}
+[data-dpr='3'] .popup {
+	font-size: 48px;
+}
+
+.popup-text {
+  width: 7.2rem;
+  padding: 1.07rem 0;
+  color: #030303;
+  font-weight: 300;
+  border-bottom: 1px solid #E5E5E5;
+  text-align: center;
+}
+
+.popup-btn > span {
+  display: inline-block;
+  text-align: center;
+  width: 3.5rem;
+  height: 1.16rem;
+  line-height: 1.16rem;
+  color: #2B95FF;
+}
+
+.cancel {
+  border-right: 1px solid #E5E5E5;
+}
+
+.hidden {
+  display: none;
+}
+
+.my-info {
+  height: 4.4rem;
+  position: relative;
+  background-color: #fff;
+}
+
+.head-portrait {
+  width: 1.87rem;
+  height: 1.87rem;
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: .73rem;
+  border-radius: .94rem;
+  /*background: url('./img/patient_head.png') center no-repeat;*/
+  /*background-size: contain;*/
+}
+
+.name {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 3.14rem;
+  font-weight: 300;
+}
+[data-dpr='2'] .name {
+	font-size: 28px;
+}
+[data-dpr='3'] .name {
+	font-size: 42px;
+}
+
+.modify-btn {
+  position: absolute;
+  top: 1.37rem;
+  right: .44rem;
+  font-size: 14px;
+  color: #ccc;
+  font-weight: 300;
+}
+[data-dpr='2'] .modify-btn {
+	font-size: 28px;
+}
+[data-dpr='3'] .modify-btn {
+	font-size: 42px;
+}
+
+.arrow {
+  width: .24rem;
+  height: .36rem;
+  display: inline-block;
+  background: url('./img/ico_arrow_ccc.png') center no-repeat;
+  background-size: contain;
+  position: relative;
+  top: .04rem;
+}
+
+.item {
+  height: 1.47rem;
+  background-color: #fff;
+  padding-left: 1.33rem;
+  position: relative;
+}
+
+.item .icon {
+  padding-right: .27rem;
+  display: inline-block;
+  width: .59rem;
+  height: .59rem;
+  position: absolute;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  left: .37rem;
+}
+
+.item > span {
+  font-size: 16px;
+  line-height: 1.47rem;
+  font-weight: 300;
+}
+[data-dpr='2'] .item > span {
+	font-size: 32px;
+}
+[data-dpr='3'] .item > span {
+	font-size: 48px;
+}
+
+.family-files,
+.report {
+  margin: .4rem 0;
+}
+
+.family-files .icon {
+  background: url('./img/ico_files.png') center no-repeat;
+  background-size: contain;
+}
+
+.registered .icon {
+  background: url('./img/registered.png') center no-repeat;
+  background-size: contain;
+}
+
+.count .icon {
+  background: url('./img/count.png') center no-repeat;
+  background-size: contain;
+}
+
+.hospitalized .icon {
+  background: url('./img/hospitalized.png') center no-repeat;
+  background-size: contain;
+}
+
+.report .icon {
+  background: url('./img/ico_ ico_inspecrep.png') center no-repeat;
+  background-size: contain;
+}
+
+.sign-out {
+  height: 1.6rem;
+  line-height: 1.6rem;
+  background-color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+[data-dpr='2'] .sign-out {
+	font-size: 32px;
+}
+[data-dpr='3'] .sign-out {
+	font-size: 48px;
+}
+
+.phone {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: .4rem;
+  margin-bottom: .4rem;
+  color: #999;
+}
+[data-dpr='2'] .phone {
+	font-size: 26px;
+}
+[data-dpr='3'] .phone {
+	font-size: 39px;
+}

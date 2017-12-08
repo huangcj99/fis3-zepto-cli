@@ -121,7 +121,7 @@ fis.match('/node_modules/requirejs/require.js', {
     useHash: true
 });
 
-fis.match('/node_modules/amfe-flexible/index.js', {
+fis.match('/src/libs/lib-flexible/1.0.0/lib-flexible.js', {
     isMod: false,
     useHash: true
 });

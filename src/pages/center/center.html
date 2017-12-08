@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人中心</title>
+  <!--STYLE_PLACEHOLDER-->
+  <script src="../../libs/lib-flexible/1.0.0/lib-flexible.js?__inline"></script><!--ignore-->
+</head>
+<body>
+  <div class="mask hidden"></div>
+
+  <div class="popup hidden">
+    <div class="popup-text"></div>
+    <div class="popup-btn">
+      <span class="cancel">取消</span>
+      <span class="redirect"></span>
+    </div>
+  </div>
+
+  <div class="my-info">
+    <img class="head-portrait" src="./img/patient_head.png" alt="头像">
+    <span class="name">用户</span>
+    <div class="modify-btn">
+      <span class="modify-text">新建个人档案</span>
+      <span class="arrow"></span>
+    </div>
+  </div>
+
+  <div class="item family-files">
+    <i class="icon"></i>
+    <span>家庭档案</span>
+  </div>
+
+  <div class="item registered">
+    <i class="icon"></i>
+    <span>挂号记录</span>
+  </div>
+
+  <div class="item count">
+    <i class="icon"></i>
+    <span>门诊缴费</span>
+  </div>
+
+  <div class="item hospitalized">
+    <i class="icon"></i>
+    <span>住院记录</span>
+  </div>
+
+  <div class="item report">
+    <i class="icon"></i>
+    <span>检查报告</span>
+  </div>
+
+  <div class="sign-out">退出登录</div>
+
+  <p class="phone">客服电话:0751-2262825</p>
+
+  <!--SCRIPT_PLACEHOLDER-->
+  <script type="text/javascript" src="../../../node_modules/requirejs/require.js"></script>
+  <script type="text/javascript">
+    require(['./center.js'], function (index) {
+        index.init();
+    });
+  </script><!--ignore-->
+</body>
+</html>
