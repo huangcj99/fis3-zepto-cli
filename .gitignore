@@ -1,3 +1,7 @@
+# Project
+build/
+node_modules/
+
 # Compiled source #
 ###################
 *.com
