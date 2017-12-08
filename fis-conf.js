@@ -1,4 +1,3 @@
-var getModulePath = require('./fis/utils.js').getModulePath;
 var ignoreModulePaths = require('./fis/ignore.module.config.js');
 var modulePaths = require('./fis/module.config.js');
 
@@ -119,12 +118,12 @@ fis.match('/node_modules/**.js', {
 // require.js本身不需要模块化，否则报错
 fis.match('/node_modules/requirejs/require.js', {
     isMod: false,
-    useHash: false
+    useHash: true
 });
 
 fis.match('/node_modules/amfe-flexible/index.js', {
     isMod: false,
-    useHash: false
+    useHash: true
 });
 
 ////////////////////打包配置////////////////////

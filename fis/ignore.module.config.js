@@ -1,5 +1,3 @@
-var getModulePath = require('./utils.js').getModulePath;
-
 var ignoreModulePaths = [
   //公共css不作为合并项
   '/src/assets/css/reset.css',

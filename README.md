@@ -1,3 +1,9 @@
+## FIS3搭建移动端轻量框架
+
+```
+1、项目技术栈采用zepto作为主要工具，handlebars做模板渲染，移动端适配采用手淘适配方案
+2、大文件模块可单独引用入到页面，业务代码采用打包方式，缓存命中率高
+```
 ## 环境搭建
 
 1. 安装开发工具 [fis3](https://github.com/fex-team/fis3)   
@@ -20,16 +26,15 @@
     ├── src # 源文件目录
     |   ├── assets # 网站公共资源以及全局css
     |   |
-    |   ├── components # 公共组件
-    |   |
     |   ├── libs # 库
     |   |
     |   ├── pages # 页面
+    |        |
+    |        ├── tpl # handlebars模板页面
     |   
     ├── fis
     |   ├── ignore.module.config.js # 不需要打包的文件列表
     |   ├── module.config.js # 模块别名设置
-    |   ├── utils.js # fis配置工具
     |
     ├── fis-conf.js # fis3配置文件
     |
