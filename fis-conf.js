@@ -122,6 +122,11 @@ fis.match('/node_modules/requirejs/require.js', {
     useHash: false
 });
 
+fis.match('/node_modules/amfe-flexible/index.js', {
+    isMod: false,
+    useHash: false
+});
+
 ////////////////////打包配置////////////////////
 
 // 打包配置
